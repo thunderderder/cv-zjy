@@ -1,0 +1,25 @@
+{
+    "input_height": 288,
+    "input_width": 480,
+    "anchors": [
+        [116,90, 156,198, 373,326],
+        [30,61, 62,45, 59,119],
+        [10,13, 16,30, 33,23]
+    ],
+    "nc": 7,
+    "stride": [
+        32,
+        16,
+        8
+    ],
+    "conf_score": 0.4,
+    "iou_thres": 0.4,
+    "cates": ["ok",
+        "stop",
+        "palm",
+        "like",
+        "dislike",
+        "no_gesture",
+        "person"
+        ]
+}

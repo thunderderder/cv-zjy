@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "device_id": "DJI",
+    "timestamp": "2025:06:03 17:26:28",
+    "latitude": 22.62517913888889,
+    "longitude": 114.05426266666666,
+    "altitude": 90.0,
+    "road_name": "深圳市",
+    "road_section": "龙华区"
+  },
+  "location": {
+    "road_name": "深圳市",
+    "road_section": "龙华区"
+  },
+  "detection_results": []
+}

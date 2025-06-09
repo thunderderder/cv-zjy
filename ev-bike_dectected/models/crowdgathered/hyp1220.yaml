@@ -1,0 +1,33 @@
+## 研究数据增强
+
+optimizer: 'SGD'  # ['adam', 'SGD', None] if none, default is SGD
+lr0: 0.01  # initial learning rate (SGD=1E-2, Adam=1E-3)
+momentum: 0.937  # SGD momentum/Adam beta1
+weight_decay: 5.0e-4  # optimizer weight decay, 5e-4
+giou: 0.05  # giou loss gain  #0.05
+cls: 0.58  # cls loss gain
+cls_pw: 1.0  # cls BCELoss positive_weight
+obj: 1.0  # obj loss gain (*=img_size/320 if img_size != 320)
+obj_pw: 1.0  # obj BCELoss positive_weight
+iou_t: 0.20  # iou training threshold
+anchor_t: 4.0  # anchor-multiple threshold
+fl_gamma: 0.0  # focal loss gamma (efficientDet default is gamma=1.5)
+hsv_h: 0.015  # image HSV-Hue augmentation (fraction)
+hsv_s: 0.7  # image HSV-Saturation augmentation (fraction)
+hsv_v: 0.4  # image HSV-Value augmentation (fraction)
+
+# random perspective params
+degrees: [0, 0, 0, 5, -5, 8, -8]  # float/int number or a list 
+translate: 0.1 # image translation (+/- fraction)
+# perspective: [0.001, 0.001, 0, 0.003] #  [left, right, 仰视，俯视] # 0-0.001, must be positive 
+perspective: [0.0, 0.0, 0, 0.0] #  [left, right, 仰视，俯视] # 0-0.001, must be positive 
+# scale: [1, 3]  # image scale [scale left, scale right], [1,1]: 不做任何scale增强
+scale: [0.6, 0.8, 1.0, 1.0, 1.0, 1.2, 1.4] # a list of numbers, length 2 or larger
+shear: 0 #  image shear (+/- deg)
+adjust_brightness: True
+lr_flip: True
+ud_flip: False
+rotate90: False
+num_workers: 40
+strict_mosaic: True
+img_type: rgb

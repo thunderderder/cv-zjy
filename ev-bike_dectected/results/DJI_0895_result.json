@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "device_id": "DJI",
+    "timestamp": "2025:06:03 17:09:51",
+    "latitude": 22.626700972222224,
+    "longitude": 114.05575558333334,
+    "altitude": 79.0,
+    "road_name": "深圳市",
+    "road_section": "龙华区"
+  },
+  "location": {
+    "road_name": "深圳市",
+    "road_section": "龙华区"
+  },
+  "detection_results": [
+    {
+      "bbox": [
+        5004.0,
+        2148.0,
+        5472.0,
+        2965.0
+      ],
+      "confidence": 0.8680751919746399,
+      "class": "ebike"
+    },
+    {
+      "bbox": [
+        4648.0,
+        2025.0,
+        5008.0,
+        2825.0
+      ],
+      "confidence": 0.8243516683578491,
+      "class": "ebike"
+    }
+  ]
+}

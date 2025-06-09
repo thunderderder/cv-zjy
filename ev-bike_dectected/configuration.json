@@ -1,0 +1,1 @@
+{"framework":"pytorch","task":"domain-specific-object-detection","model":{"type":"my-custom-model"},"pipeline":{"type":"my-custom-pipeline"},"allow_remote":true}
